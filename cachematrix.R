@@ -55,7 +55,8 @@ cacheSolve <- function(x, ...) {
 ## > b <- makeCacheMatrix(a)
 ## Step 3. First time to call cacheSolve(b). You would see 
 ## the inverse matrix is returned, but not from cache.
-## cacheSolve(b)
-## Step 4. Second time to call cacheSlve(). You would see the same inverse matrix
+## > cacheSolve(b)
+## Step 4. Second time to call cacheSlve(b). You would see the same inverse matrix
 ## is returned and this time, it is from the cache.
+## > cacheSolve(b)
 
